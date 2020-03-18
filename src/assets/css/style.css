@@ -1,0 +1,207 @@
+#bar-1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#navbar {
+	margin: 0px;
+	height: 80px;
+	width: 100%;
+	background-color: #11223a;
+	white-space: nowrap;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 26px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+li a:focus {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+.material-icons {
+	list-style-type: none;
+	color: white;
+	padding: 0;
+	overflow: hidden;
+
+	height: 40px;
+}
+
+.over-img {
+	position: absolute;
+	top: 120px;
+	left: 600px;
+	width: 600px;
+}
+
+.bar-1-text {
+	color: #fff;
+	font-size: 50px;
+	line-height: 1;
+	font-family: 'Rajdhani';
+	width: fit-content;
+}
+
+.bar-1-subtext {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Rajdhani';
+}
+
+.bar-1-subtext2 {
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Rajdhani';
+}
+
+.center-bar {
+	background-image: url('../images/Home_SmartFab2.png');
+	height: 1000px;
+	background-position-y: 300px;
+	background-position-x: 400px;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-size: 600px;
+}
+
+.center-bar-1 {
+	height: 490px;
+	width: 900px;
+	left: 286px;
+	top: 750px;
+	position: absolute;
+}
+
+.center-bar-2 {
+	height: 490px;
+	width: 900px;
+	left: 686px;
+	top: 1550px;
+
+	position: absolute;
+}
+
+.line {
+	height: 4px;
+	width: 40px;
+	left: 20px;
+	background: #0044aa;
+	margin-top: 20px;
+}
+
+.num-card {
+	height: 80dp;
+	text-align: center;
+	align-content: center;
+	width: 100dp;
+}
+
+.column:hover {
+	height: 80dp;
+	text-align: center;
+	align-content: center;
+	width: 100dp;
+	border-radius: 3px;
+	background-color: rgba(99, 99, 99, 0.6);
+	margin-bottom: 78px;
+	border: 1px #ff8822 solid;
+}
+
+.number-text {
+	height: 70px;
+	margin-top: 50px;
+	color: #fff;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 105px;
+}
+
+.column {
+	float: left;
+	margin: 20px;
+	width: 120px;
+	margin-bottom: 80px;
+}
+
+.num-subtext {
+	color: #fff;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 15px;
+}
+
+.lang {
+	float: left;
+	margin: 5px;
+	margin-top: 70px;
+	padding: 10px;
+	border-radius: 21px;
+	border: 1px #0044aa solid;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: #0044aa;
+}
+
+.lang:hover {
+	color: #ff8822;
+	border: 1px #ff8822 solid;
+}
+
+/* 1920px css code */
+/* 1600px css code */
+/* 1380px css code */
+@media screen and (max-width: 1380px) {
+	.dm-menu > ul > li > a,
+	.dm-menu > ul > li > span {
+		padding: 0 10px;
+		font-size: 22px;
+	}
+
+	.top-text {
+		padding-left: 0px;
+	}
+}
+.header-menu {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.dm-menu {
+	--dm-color: #fff;
+	--dm-item-current-bg: #fff;
+	--dm-item-current-color: #889;
+	--dm-item-hover-color: #ff8822;
+}
+.header-slider {
+	height: 300px;
+}
+#menu ul li a {
+	text-align: left;
+}
+/* 1180px css code */
+/* 1024px css code */
+@media screen and (max-width: 1024) {
+	.dm-menu > ul > li > a,
+	.dm-menu > ul > li > span {
+		padding: 0 10px;
+		font-size: 18px;
+	}
+
+	.top-text {
+		padding-left: 0px;
+	}
+}
+
+/* 992px css code */
+/* 767px css code */

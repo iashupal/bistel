@@ -1,0 +1,35 @@
+.subscription__container {
+  background: url('./subscribe-bg.png');
+  background-size: cover;
+  background-position: center;
+  color: var(--color-white);
+  text-align: center;
+  padding: 120px 0;
+}
+
+.subscription__heading {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.subscription__subheading {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.subscription__request-demo {
+  width: 350px;
+  height: 70px;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 38px;
+  color: var(--color-white);
+  font-size: 35px;
+  font-family: 'Open Sans';
+}
+
+.subscription__request-demo:hover {
+  background: var(--color-orange);
+}

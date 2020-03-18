@@ -1,0 +1,5 @@
+.error__hero {
+  background: var(--color-primary);
+  padding: 200px 15%;
+  color: var(--color-white);
+}

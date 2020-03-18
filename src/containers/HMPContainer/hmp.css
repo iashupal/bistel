@@ -1,0 +1,87 @@
+.hmp_card_hint{
+    font-size: 12px;
+    font-family: 'Open Sans';
+    color: #95A5B9;
+
+}
+.hmp_heading{
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: var(--color-black);
+}
+ .hmp_card_content{
+    text-align: right;
+    padding-right: 40px;
+}
+.hmp_closer_content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -85px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+.hmp_equipment_text{
+    font-size: 22px;
+    font-family: 'Open Sans';
+    color: var(--color-primary);
+    text-align: center;
+}
+.hmp_info_card{
+    float: right;
+    width: 70%;
+    margin: 30px auto 100px;
+    clear: both;
+}
+.hmp_maintenance_heading{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: var(--color-primary);
+}
+.hmp_Maintenance_card{
+    margin-bottom: 200px;
+}
+.hmp_maintenance_subheading{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: var(--color-black);
+    margin: 0;
+    line-height: 1.5;
+}
+.hmp_prod_card_text{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    vertical-align: top;
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    line-height: 1.6;
+}
+.hmp_divide_module{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin: 30px auto;
+
+}
+.hmp_layer_heading{
+    font-size: 12px;
+    color: var(--color-orange);
+}
+.hmp_layer_subheading{
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: var(--color-black);
+    font-weight: bold;
+    margin: 0;
+}
+.hmp_layer_card{
+    margin: 45px auto;
+}
+.hmp_layer_card .hmp_layer_heading{
+    color: #48CDFF;
+}
+.img_responsive{
+    width: 100%;
+}

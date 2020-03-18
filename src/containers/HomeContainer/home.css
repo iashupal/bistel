@@ -1,0 +1,159 @@
+/* Hero CSS */
+.hero__container {
+  background: url('../../assets/images/cover.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 15% 200px 15%;
+  color: var(--color-white);
+}
+
+.hero__title {
+  font-family: 'Rajdhani';
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.hero__content {
+  font-family: 'Rajdhani';
+  font-size: 30px;
+  font-weight: 400;
+  text-shadow: 3px 3px 3px #000000;
+  margin-bottom: 11px;
+}
+
+.hero__sub-content {
+  font-family: 'Rajdhani';
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.hero__side-image {
+  background: url('../../assets/images/Monitor.png') no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+.line {
+  width: 80px;
+  border-top: 4px solid var(--color-primary);
+}
+
+.section__one-bg {
+  background: url('../../assets/images/home_section1_bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section__two-bg {
+  background: url('../../assets/images/bg_dotstyle.svg') no-repeat;
+  /* background-size: cover; */
+  background-position: center top;
+}
+
+.column {
+  width: 40%;
+}
+
+.column-right {
+  margin-left: 60%;
+}
+
+/* Main Content CSS */
+.main__container {
+  width: var(--container-width);
+  margin: 0 auto 200px auto;
+}
+
+.main__two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 200px;
+}
+
+.main__intro {
+  /* background: var(--color-white); */
+  margin-top: -100px;
+  margin-bottom: 150px;
+  padding: 100px 28px 0 28px;
+}
+
+.main__intro-heading {
+  color: var(--color-primary);
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+.main__intro-subheading {
+  color: var(--color-primary);
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.main__intro-content {
+  color: var(--color-black);
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.main__intro-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* What's new at BISTel */
+.news__heading {
+  display: inline-block;
+  border-top: 4px solid var(--color-primary);
+  color: var(--color-primary);
+  font-family: 'Rajdhani';
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.news__card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2.5%;
+  justify-content: space-between;
+}
+
+.news__card-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #dde3e9;
+  padding: 10px;
+}
+
+.news__card-date {
+  color: var(--color-gray);
+  font-size: 12px;
+}
+
+.news__card-title {
+  color: var(--color-primary);
+  font-size: 30px;
+}
+
+.news__card-content {
+  color: var(--color-black);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.news__card-img {
+  margin-top: auto;
+  width: 100%;
+}

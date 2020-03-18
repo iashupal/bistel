@@ -1,0 +1,19 @@
+.graph_container{
+    width: 65%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+.graph_heading{
+    font-size: 30px;
+}
+.graph_img img{
+    width: 100%;
+}
+/* 1380px css code */
+@media screen and (max-width:1380px){
+    .graph_container{
+        width: 80%;
+    }
+}

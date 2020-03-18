@@ -1,0 +1,151 @@
+ .industry__hero.semicon_hero{
+    background-image: url('../../assets/images/banners_img/industry_Semicon_bnr_small.png');
+}
+.industry__hero.automotive_hero{
+    background-image: url('../../assets/images/banners_img/industry_automotive_bnr_small.png');
+}
+.industry__hero.battery_hero{
+    background-image: url('../../assets/images/banners_img/industry_battery_bnr_small.png');
+}
+.industry__hero.electronics_hero{
+    background-image: url('../../assets/images/banners_img/industry_assemblePCB_bnr_small.png');
+}
+.industry__hero.energy_hero{
+    background-image: url('../../assets/images/banners_img/industry_energy_bnr_small.png');
+}
+.fpd_hero{
+    background-image: url('../../assets/images/banners_img/industry_FPD_bnr_small.png');
+}
+.industry__hero.led_hero{
+    background-image: url('../../assets/images/banners_img/industry_LED_bnr_small.png');
+}
+.industry__hero.pharmaceutical_hero{
+    background-image: url('../../assets/images/banners_img/industry_pharmaceutial_bnr_small.png');
+}
+.industry__hero.steel_hero{
+    background-image: url('../../assets/images/banners_img/industry_steel_bnr_small.png');
+}
+main{
+    position: relative;
+}
+.semicon-container{
+    background-color: #EFF3F6;
+    padding: 250px 0px 10px;
+    position: relative;
+    z-index: -1;
+}
+.semicon_heading__container{
+    position: absolute;
+    top: -67px;
+    left: 15%;
+    width: 25%;
+    background-color: white;
+    padding: 30px 20px;
+}
+.semicon__column{
+    width:100%;
+}
+.icon_Q{
+    border: 2px solid var(--color-orange);
+    border-radius: 50%;
+    width: 23px;
+    font-size: 40px;
+    color: var(--color-orange);
+    padding: 2px 10px;  
+}
+.main__intro-heading.semiconductor_heading{
+    color: var(--color-orange);
+    line-height: 1.2;
+    margin-top: 15px;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+.main__intro-heading{
+    line-height: 1.2;
+}
+.semicon_yield_container{
+    width: 40%;
+}
+
+.semicon-container:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 600px;
+    border-left-width: 0px;
+    border-bottom: 250px solid white;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+}
+.semicon-container:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 1235px;
+    border-right-width: 0px;
+    border-bottom: 286px solid white;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.semicon_optimizatn_image{
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+    z-index: 1;
+}
+.semicon_optimizatn_image img{
+    width: 700px;
+    height: 100%;
+}
+.semicon-subheading{
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto';
+}
+.main_solution{
+    background: url('../../assets/images/dots/bg_dotstyle.svg') no-repeat;
+    background-position: center top;
+}
+.solution_content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 100px auto;
+    
+}
+.solution_heading{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    letter-spacing: 1.2px;
+    position: relative;
+}
+.solution_heading:before{
+    content: '';
+    position: absolute;
+    width: 140px;
+    border: 1px solid var(--color-primary);
+    top: -10px;
+}
+
+/* 1560px css code */
+@media screen and (max-width:1560px){
+    .main__container{
+        width: 80%;
+    }
+    .semicon_optimizatn_image{
+        right: 8%;
+    }
+    .semicon_yield_container {
+        width: 45%;
+    }
+    .semicon_optimizatn_image img{
+        width: 560px;
+    }
+} 

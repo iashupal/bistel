@@ -1,0 +1,8 @@
+.wqp_step_heading{
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: var(--color-primary);
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: .5px;
+}

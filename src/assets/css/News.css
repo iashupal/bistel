@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:600&display=swap');
+
+.background-news{
+   
+    background-size: cover;
+   height: 512px;
+    background: url('../images/news_bg.png');
+}
+.bar-1-subtext-news {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Rajdhani';
+}
+.press-contact-bar{
+    align-content: left; 
+    margin-top: 100px; 
+    background: #fff; 
+    z-index: 2;
+    box-shadow: 5px 5px 5px #DDE3E9;
+    height: 270px;
+}
+.news-bar-text{
+    margin: 10px;
+    font-size: 30px;
+    float: left;
+    font-family: 'Rajdhani';
+    color: #0044AA;
+}
+.news-bar-handle{
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Rajdhani';
+    margin-bottom: 10px;
+    color: #333333;
+}
+.news-bar-subtext{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    width: 250px;
+    margin-bottom: 10px;
+    line-height: 1;
+    word-wrap: break-word;
+    color: #333333;
+}
+.news-bar-img{
+    width:250px;
+}
+.contact-us-btn {
+    margin-top: 10px;
+   margin-left: 50px;
+    width: 177px;
+    height: 55px;
+    background-color: #0044AA;
+    
+  
+  }
+  
+.main-header-text{
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-size: 30px;
+    margin-top: 100px;
+    color: #0044AA;
+}
+
+.HomeCardText {
+    color: #0044AA;
+    align-content: left;
+    font-size: 30px;
+    justify-content: center;
+  }
+  .main-card{
+      height:500px;
+  }
+  .card-text{
+      line-height: 1.2;
+      text-align: left;
+  }
+  .card-subtext{
+      text-align: left;
+      margin-left: 20px;
+      margin-bottom: 30px;
+  }
+  .card-header-news{
+      margin-top: 30px;
+      margin-left: 10px;
+      color: #95A5B9;
+    text-align: left;
+  }
+  .card-img-bottom{
+      padding:10px;
+  }

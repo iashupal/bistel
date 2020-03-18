@@ -1,0 +1,59 @@
+.ees__card{
+    padding: 5px 30px;
+    z-index: 1;
+    color: white;
+}
+ul.ees_points li, .ees_main_points li p.main_pt_para{
+    font-family: 'Open Sans';
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: white;
+}
+ul.ees_points{
+    list-style: none;
+    padding: 0;
+}
+ul.ees_main_points{
+    margin: 90px auto 0;
+    list-style: none;
+    font-family: 'Open Sans';
+    padding: 0;
+}
+.main_inner_pt{
+    font-size: 12px;
+    margin-top: 0;
+    padding-left: 15px;
+    line-height: 1.6;
+}
+.ees_section{
+    background-color: var(--color-primary);
+    width: 100%;
+    padding: 50px 0;
+}
+.ees_content{
+    width: 45%;
+    margin: 0 auto;
+    position: relative;
+}
+.ees_heading{
+    display: inline-block;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Roboto';
+    color: #48CDFF;
+    line-height: 1.5;
+}
+.ees_button{
+    margin: 40px 0;
+    display: flex;
+}
+.ees_button img{
+    padding-right: 20px;
+}
+.ees_button p{
+    margin: 0;
+    position: relative;
+    top: 6px;
+}

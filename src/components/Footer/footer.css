@@ -1,0 +1,68 @@
+.footer__container {
+  background: url('../../assets/images/footer-bg.svg') no-repeat;
+  background-size: cover;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+  grid-column-gap: 25px;
+  padding: 50px 10%;
+  justify-content: space-around;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__heading {
+  color: #0044aa;
+  font-size: 18px;
+}
+
+.footer__link {
+  font-size: 14px;
+  color: white;
+  margin-top: 7px;
+}
+
+.footer__subscribe {
+  font-size: 18px;
+
+  color: #48cdff;
+  margin-top: 36px;
+}
+
+.footer__email-input {
+  height: 27px;
+  border: 1px solid var(--color-gray);
+  margin-top: 17px;
+  background: transparent;
+  padding: 2px 5px;
+}
+
+.footer__subscribe-btn {
+  width: 110px;
+  border: none;
+  border-radius: 50px;
+  height: 27px;
+  margin-top: 13px;
+  font-size: 10px;
+  color: white;
+  background-color: #48cdff;
+  margin-bottom: 112px;
+}
+
+.footer__privacy-container {
+  height: 50px;
+  background: black;
+}
+
+.footer__privacy-text {
+  color: var(--color-white);
+  margin-top: -10px;
+  padding-top: 15px;
+  text-align: center;
+}

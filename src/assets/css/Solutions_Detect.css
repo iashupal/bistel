@@ -1,0 +1,207 @@
+.solutions-detect-nav-background {
+    background-image: url('./../images/solutions-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.solutions-detect-nav-background::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 650px;
+    border-left-width: 0px;
+    border-bottom: 82px solid white;
+    bottom: 0;
+    position: absolute;
+}
+
+.solutions-detect-nav-background::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 0px;
+    border-left-width: 650px;
+    border-bottom: 82px solid white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.header .banner-title {
+    font-family: Rajdhani;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+
+.header .banner-sub-title {
+    font-family: Rajdhani;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+}
+
+.section-1 {
+    margin-top: 100px;
+}
+
+.main-section1-title {
+    color: #0044AA;
+    font-family: Roboto;
+    font-size: 45px;
+    position: relative;
+}
+
+.solutions-line {
+    height: 3px;
+    width: 50px;
+    background: #0044AA;
+    margin-bottom: 10px;
+}
+
+.main-section1-sub-title {
+    font-family: Roboto;
+    font-size: 35px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 50px;
+    line-height: 1.2;
+}
+
+.main-section1-text {
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Open Sans';
+    margin-top: 50px;
+    line-height: 1.5;
+}
+
+.section-2 {
+    margin-top: 100px;
+}
+
+.section-2 .row .col-md-10 {
+    background: #EFF3F6;
+}
+
+.section-2-title {
+    color: #0044AA;
+    font-family: Rajdhani;
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.section-2-title::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #0044AA;
+    width: 70px;
+    bottom: 50px;
+}
+
+.ques {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #0046AA;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.section-2 .row .row .col-md-9 .ques-3 {
+    padding-bottom: 100px;
+}
+
+.section-3 {
+    margin-top: 100px;
+}
+
+.section-3-title {
+    color: #0044AA;
+    font-family: Rajdhani;
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+}
+
+.section-3-title::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #0044AA;
+    width: 70px;
+    bottom: 50px;
+}
+
+.section-3-sub-title {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #333333;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.section-3 .row .row {
+    margin-top: 50px;
+}
+
+.subscribe-title-text {
+    font-size: 60px;
+    color: azure;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.subscribe-text {
+    color: azure;
+    align-content: center;
+    margin-top: 25px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.subscribe-background-image {
+    background: transparent url('../images/HomeFooter1Background.png');
+    background-size: cover;
+}
+
+.subscribe-request-demo-btn {
+    margin-top: 37px;
+    border-radius: 150px;
+    width: 347px;
+    height: 67px;
+    margin-bottom: 99px;
+    background-color: #0044AA;
+    font-size: 30px;
+}
+
+.section-4 {
+    margin-top: 100px;
+}
+
+.subcard-title {
+    font-size: 35px;
+    color: #0044AA;
+    font-family: Roboto;
+}
+
+.subcard-subtitle {
+    font-size: 18px;
+    color: #0044AA;
+}
+
+.card-btn {
+    width: 110px;
+    border-radius: 50px;
+    height: 27px;
+    font-size: 10px;
+    color: white;
+    background-color: #48CDFF;
+    vertical-align: bottom;
+    align-self: auto;
+    margin-bottom: 30px;
+}

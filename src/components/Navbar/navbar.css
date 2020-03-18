@@ -1,0 +1,71 @@
+.navbar_root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  font-family: 'Rajdhani';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar__container {
+  width: 70%;
+  padding: 2.5% 15%;
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.navbar__logo {
+  height: 34px;
+  width: 85px;
+}
+
+.navbar__subpage-links {
+  width: 500px;
+  margin-left: 5%;
+}
+
+.navbar__subpage-links > a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__subpage-links > a:hover {
+  color: var(--color-orange);
+}
+
+.navbar__left {
+  display: flex;
+  flex-direction: row;
+  width: 740px;
+}
+
+.navbar__right {
+  width: 260px;
+}
+
+.navbar__request-demo-btn {
+  border: none;
+  border-radius: 14px;
+  padding: 5px 20px;
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background: var(--color-orange);
+  color: var(--color-white);
+}
+
+.navbar__request-demo-btn:hover {
+  background: var(--color-primary);
+}
+
+.navbar__icon-btns {
+  width: 60px;
+}
+
+.navbar__icon-btns > i:hover {
+  color: var(--color-orange);
+}

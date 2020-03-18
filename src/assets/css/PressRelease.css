@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:600&display=swap');
+
+.background-press{
+   
+    background-size: cover;
+   height: 512px;
+    background: url('../images/Press.png');
+}
+.bar-1-subtext-press {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 100px;
+    font-family: 'Roboto';
+}
+.press-contact-bar{
+    align-content: left; 
+    margin-top: 200px; 
+    background: #fff; 
+    z-index: 2;
+    box-shadow: 5px 5px 5px #DDE3E9;
+    height: 270px;
+}
+.press-bar-text{
+    color: #333333;
+    font-family: 'Roboto';
+    margin : 15px;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.press-bar-subtext{
+    color: #333333;
+    font-family: 'Open Sans';
+    margin : 15px;
+    font-size: 20px;
+    line-height: 1;
+}
+.contact-us-btn {
+    margin-top: 10px;
+   margin-left: 50px;
+    width: 177px;
+    height: 55px;
+    background-color: #0044AA;
+    
+  
+  }
+  
+
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  margin-left: 100px;
+  width: 500px;
+  float : left;
+  color: #0044AA;
+  margin-bottom: .5em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.container {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  padding: 1em 3.5em 2em;
+  font-family: 'Rajdhani';
+  height: 150px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+.timeline-item p {
+  font-size: 'Rajdhani';
+}
+.timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  color: #95A5B9;
+  top: 1em;
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.timeline-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -7px;
+  border-radius: 10px;
+  content: '';
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background: white;
+}
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+     border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+}
+
+.image-timeline{
+
+}
+.timeline-subtext{
+	margin-top: 50px; 
+	margin-left: 100px;
+	position: absolute;
+}

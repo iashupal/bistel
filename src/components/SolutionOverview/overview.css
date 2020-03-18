@@ -1,0 +1,95 @@
+.solution_hero_text{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Rajdhani';
+    margin: 0;
+}
+.solution_hero_title_info{
+    font-size: 50px;
+}
+.sol_hero_title{
+    font-size: 100px;
+}
+.detect-container{
+    position: relative;
+    width: 100%;
+    margin: 50px auto;
+}
+.detect_hero:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 930px;
+    border-left-width: 0px;
+    border-bottom: 180px solid white;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+}
+.detect_hero:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 930px;
+    border-right-width: 0px;
+    border-bottom: 180px solid white;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.detect_defense_container{
+    width: 50%;
+    display: inline-block;
+}
+.detect_right_image{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.detect_right_image img{
+    width: 450px;
+}
+.detect_challanges{
+    width: 60%;
+    background-color: #EFF3F6;
+    margin: 40px 0;
+    padding: 70px;
+}
+.detect_challange_heading{
+    text-align: center;
+    width: 260px;
+    margin: 0 auto;
+}
+.detect_challange_heading::before{
+    left: 0;
+    width: 100%;
+}
+.detect_card_subtitle{
+    width: 70%;
+    padding-left: 30%;
+    font-size: 20px;
+    margin: 50px 0;
+    font-family: 'Open Sans';
+}
+.detect_card_subtitle1{
+    width: 60%;
+    padding-left: 35%;
+    margin: 50px 0;
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+.detect_solutions{
+    width: 45%;
+    margin: 60px auto;
+}
+.detect_solution_heading{
+    width: 115px;
+    
+}
+.detect_solution_heading::before{
+    width: 100%;
+    left: 0;
+}

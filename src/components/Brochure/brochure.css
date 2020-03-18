@@ -1,0 +1,38 @@
+
+.brochure_card{
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 50px;
+    padding: 20px;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid #DDE3E9;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.brochure_subHeading{
+    font-size: 22px;
+    font-family: 'Open Sans';
+}
+.brochure_button{
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.brochure_img{
+    width: 100%;
+}
+.brochure_img img{
+    width: 100%;
+}
+.brochure_content{
+    padding-right: 30px;
+}
+.brochure_heading{
+    font-size: 12px;
+    font-family: 'Open Sans';
+    color: #95A5B9;
+}
+.brochure_content{
+    line-height: 1.6;
+}

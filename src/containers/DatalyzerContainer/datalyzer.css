@@ -1,0 +1,58 @@
+.datalyzer_container{
+    width: 65%;
+    margin: 100px auto;
+    position: relative;
+}
+.dalalyzer_analysis_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.analyse_margin{
+    margin: 0;
+}
+.analyzer_img img{
+    width: 100%;
+}
+ul.analyse_points li{
+    color: var(--color-black);
+}
+.root_cause_pt{
+    color: var(--color-orange);
+    font-size: 16px;
+    margin: 0;
+  text-align: center;
+}
+.accurate_level_img{
+    margin-top: -50px;
+}
+.datalyzer_result{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    margin: 100px auto;
+}
+.result_heading{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 30px;
+}
+ul.result_points{
+    width: 75%;
+    position: relative;
+    padding-left:40px;
+}
+.result_points li{
+    margin: 30px auto;
+}
+.result_points:before{
+content: '';
+position: absolute;
+left: 0;
+height: 100%;
+border-left: 2px solid var(--color-primary);
+}
+/* 1280px css code */
+@media screen and (max-width: 1280px){
+    .datalyzer_container{
+        width: 80%;
+    }
+}

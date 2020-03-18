@@ -1,0 +1,139 @@
+.nav_submenu{
+    position: absolute;
+    width: 70%;
+    background-color: white;
+    border-top: 3px solid;
+    border-top-color:var(--color-orange);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 120px;
+    grid-gap: 20px;
+    z-index: 2;
+}
+.nav_submenu.nav_submenuCol{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nav_submenu_item{
+    background-color: #F4F5F6;
+    padding: 20px;
+    position: relative;
+}
+.nav_submenu_item h5{
+    color: var(--color-primary);
+    font-size: 20px;
+    font-family: 'Rajdhani';
+    margin: 0;
+}
+.nav_submenu p{
+    color: #95A5B9;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+}
+.nav_submenu_item2{ 
+    padding-right: 20px;
+}
+.nav_submenu_item2 ul{
+    padding: 0;
+}
+.nav_submenu_item3{ 
+    padding-right: 20px;
+}
+.nav_submenu_item4{
+    padding-right: 20px;
+}
+.nav_submenu_item2 ul li a, .nav_submenu_item3 ul li a, .nav_submenu_item4 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav_file_format{
+    background-color: white;
+    float: left;
+    clear: both;
+    width: 85%;
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 15px;
+}
+p.format_heading{
+    font-size: 34px;
+    color: var(--color-primary);
+    font-family: 'Titillium Web';
+    margin: 0;
+}
+.format_li{
+    margin-bottom: 30px;
+}
+.format_signup{
+    background-color: #48CDFF;
+    margin: 15px;
+    padding: 20px;
+}
+p.format_signup_heading{
+    font-size: 35px;
+    color: var(--color-white);
+    font-family: 'Titillium Web';
+    margin: 0;
+    line-height: 1;
+}
+p.format_signup_content{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: var(--color-white);
+}
+.signup_btn{
+    width: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 20px;
+    border: transparent;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-size: 29px;
+    font-weight: 500;
+}
+.signup_btn a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+.grid_col_span2{
+    grid-column: auto/span 2;
+}
+.nav_contact{
+    background-color: #48CDFF;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+p.contact_heading{
+    font-family: 'Rajdhani';
+    font-size: 29px;
+    color: white;
+}
+p.contact_subheading{
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 14px;
+}
+/* 1550px css code */
+@media screen and (max-width:1550px){
+    .nav_file_format{
+        width: 82%;
+    }
+}
+/* 1280px css code */
+@media screen and (max-width:1280px){
+    .nav_file_format{
+        width: 80%;
+    }
+}
+/* 1180px css code */
+@media screen and (max-width:1180px){
+    .nav_submenu{
+        width:85%;
+        left: 100px;
+    }
+}

@@ -1,0 +1,13 @@
+.page_heading_container{
+    text-align: center;
+    margin: 100px auto;
+    clear: both;
+}
+.page_heading_text{
+    display: inline-block;
+    margin: 0;
+}
+.page_heading_text::before{
+    width: 100%;
+    left: 0;
+}

@@ -1,0 +1,76 @@
+.cm_screen img{
+    width: 100%;
+}
+.cm_result_heading{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-primary);
+    margin: 0;
+}
+ul.cm_points{
+    margin: 40px auto;
+}
+.cm_points li p{
+    color: var(--color-black);
+    font-size: 16px;
+    line-height: 1.2;
+}
+.cm_points p{
+    display: inline-block;
+    margin: 0;
+}
+.cm_points li span{
+    color: var(--color-orange);
+    font-size: 12px;
+    font-family: 'Open Sans';
+    padding-right: 15px;
+}
+.cm_result_min{
+    color: var(--color-orange);
+    font-size: 30px;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+.cm_card_heading{
+    font-size: 25px;
+    letter-spacing: .5px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    margin: 0;
+    color: var(--color-primary);
+}
+.cm_card_subheading{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: #333333;
+}
+
+.cm_left_card1{
+    margin: 50px 0;
+}
+.cm_left_card1:nth-child(2){
+    padding-left: 50px;
+}
+.cm_left_card1:nth-child(4){
+    padding-left: 100px;
+}
+.cm_right_card:nth-child(2){
+    padding: 0;
+    margin-top: 30%;
+}
+.cm_right_card:nth-child(3){
+    margin-top: 20%;
+}
+/* 1480px css code */
+@media screen and (max-width:1480px){
+    .cm_left_card1 {
+        margin: 20px 0;
+    }
+    .cm_card_heading{
+        font-size: 16px;
+    }
+    .cm_card_subheading{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,41 @@
+.solution_hero_title{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+}
+.solution_hero_subheading{
+    color: white;
+    line-height: 1.5;
+}
+.solution_hero_content{
+    color: white;
+}
+.sol_bnr_header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sol_bnr_header ul.solution_detect_images{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    margin: 30px auto;
+    grid-gap: 10px;
+}
+.sol_bnr_header ul.solution_detect_images.allSolution_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    grid-gap: 20px;
+}
+.sol_bnr_header ul li p{
+    color: #48CDFF;
+}
+.sol_screen_img{
+    padding-top: 75px;
+}
+.sol_screen_img img{
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+.Energy-card {
+    height: 450px;
+    border-top: 4px solid #0044AA;
+}
+
+.Energy-banner-bg {
+    background-image: url('../images/150-Energy-banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.Energy-banner-bg::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 950px;
+    border-left-width: 0px;
+    border-bottom: 82px solid white;
+    bottom: 0;
+    position: absolute;
+}
+
+.Energy-banner-bg::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 0px;
+    border-left-width: 350px;
+    border-bottom: 82px solid white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}

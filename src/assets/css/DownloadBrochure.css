@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.banner{
+    background: url('./../images/BrochureHeader.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+.center-bar-brochure{
+
+    bottom: -70px;
+    height: 100%;
+    background: #fff;
+    width: 100%;
+}
+.brochure-bar-text{
+    font-size: 35px;
+    line-height: 1;
+    font-family: 'Roboto';
+    margin-top: 50px;
+}
+.brochure-bar-subtext{
+    font-size: 20px;
+    line-height: 1;
+    color: #333333;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+
+}
+.brochure-bar-subtext1{
+    font-size: 16px;
+
+    color: #333333;
+    width: 500px;
+    line-height: 2;
+    margin-left: 20px;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+
+}
+.brochure-bar-subtext2{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    width: 500px;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+}
+.side-bar-text{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    padding: 10px;
+    color: #0044AA;
+}
+.side-bar-subtext{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    padding: 10px;
+    color: #0044AA;
+}
+.btn-submit{
+align-content: center;
+float: center;
+}
+.form-text{
+    font-family: 'Open Sans'
+}
+.btn-submit{
+    border:1px blue solid;
+   border-radius: 30px;
+   height : 50px;
+   color: #fff;
+   font-size: 30px;
+   text-align: center;
+   background: #0044AA;
+    padding: 15px;
+
+}
+.brochure-bottom-text{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 50px;
+    color: #fff;
+    padding-top : 80px;
+}
+.brochure-bottom-subtext{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #fff;
+    padding-top : 20px;
+}
